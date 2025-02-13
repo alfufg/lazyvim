@@ -11,3 +11,7 @@ vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 
 -- Set Undotree shortcut keys
 vim.keymap.set("n", "<leader>undo", ":UndotreeToggle<CR>")
+
+local opts = { noremap = true, silent = true }
+vim.keymap.set("n", "<leader>ls", vim.lsp.buf.document_symbol, opts)
+vim.keymap.set("n", "<leader>lc", ":cclose<CR>", opts)
