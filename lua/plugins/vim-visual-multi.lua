@@ -1,0 +1,41 @@
+return {
+  "mg979/vim-visual-multi",
+}
+
+-- Basic usage:  基本用法：
+--
+-- select words with Ctrl-N (like Ctrl-d in Sublime Text/VS Code)
+-- 选择单词（ Ctrl-N 如 Sublime Text/VS Code 中的 Ctrl-d）
+-- create cursors vertically with Ctrl-Down/Ctrl-Up
+-- 使用 Ctrl-Down / Ctrl-Up 垂直创建光标
+-- select one character at a time with Shift-Arrows
+-- 一次 Shift-Arrows 选择一个字符
+-- press n/N to get next/previous occurrence
+-- 按 n / N 可获取下一个/上一个匹配项
+-- press [/] to select next/previous cursor
+-- 按 [ / ] 选择 Next/Previous Cursor
+-- press q to skip current and get next occurrence
+-- 按下 q 可跳过当前并获取下一个匹配项
+-- press Q to remove current cursor/selection
+-- 按下 Q 可删除当前光标/选择
+-- start insert mode with i,a,I,A
+-- 使用 i 、 、 a 、 I A 启动 INSERT 模式
+-- Two main modes:  两种主要模式：
+--
+-- in cursor mode commands work as they would in normal mode
+-- 在光标模式下，命令的工作方式与在正常模式下一样
+-- in extend mode commands work as they would in visual mode
+-- 在扩展模式下，命令的工作方式与在可视模式下一样
+-- press Tab to switch between «cursor» and «extend» mode
+-- 按下 Tab 可在 «CURSOR» 和 EXTEND» 模式之间切换
+-- Most vim commands work as expected (motions, r to replace characters, ~ to change case, etc). Additionally you can:
+-- 大多数 vim 命令都按预期工作（动作、 r 替换字符、 ~ 更改大小写等）。此外，您还可以：
+--
+-- run macros/ex/normal commands at cursors
+-- 在光标处运行 MACROS/EX/NORMAL 命令
+-- align cursors  对齐光标
+-- transpose selections  转调选区
+-- add patterns with regex, or from visual mode
+-- 使用 regex 或从可视模式添加模式
+-- And more... of course, you can enter insert mode and autocomplete will work.
+-- 还有更多...当然，您可以进入插入模式，自动完成将起作用
